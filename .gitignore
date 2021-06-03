@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+/vendor/
+/phpunit.xml
+/.phpunit.cache
+phpunit-watcher.yml
