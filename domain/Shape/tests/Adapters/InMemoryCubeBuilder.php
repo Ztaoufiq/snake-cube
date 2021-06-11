@@ -10,9 +10,9 @@ class InMemoryCubeBuilder implements CubeBuilderInterface
     {
     }
 
-    public function build(Cube $cube) : array
+    public function build() : \Generator
     {
         $this->cubes[]  = [[0, 0, 0], ['2x', 'y', '-x', '2z', 'y', '-2z', 'x', 'z', '-2y', '-2x', 'y', '-z', 'y', '2z', '-2y', '2x', '2y']];
-        return $this->cubes;
+        yield [$this->cubes];
     }
 }
