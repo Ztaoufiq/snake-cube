@@ -1,8 +1,8 @@
 <?php
 
 
-namespace App\Port\Path;
-use App\Port\Builder\Vector;
+namespace App\Adapter\Path;
+use App\Adapter\Builder\Vector;
 
 interface PathInterface
 {

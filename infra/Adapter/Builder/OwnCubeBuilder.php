@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Port\Builder;
+namespace App\Adapter\Builder;
 use Domain\Shape\Port\CubeBuilderInterface;
 use Domain\Shape\Entity\Cube;
-use App\Port\Path\MaximumPath;
-use App\Port\Path\IdenticalPath;
+use App\Adapter\Path\MaximumPath;
+use App\Adapter\Path\IdenticalPath;
 
 class OwnCubeBuilder implements CubeBuilderInterface
 {

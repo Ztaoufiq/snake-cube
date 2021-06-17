@@ -5,7 +5,7 @@ use Domain\Shape\UseCase\CreateCube;
 use Domain\Shape\Entity\Cube;
 use Domain\Shape\Tests\Adapters\InMemoryCubeBuilder;
 use Domain\Shape\Exception\InvalidCubeDataException;
-use App\Port\Builder\OwnCubeBuilder;
+use App\Adapter\Builder\OwnCubeBuilder;
 class CreateCubeTest extends TestCase
 {
     /** @test */

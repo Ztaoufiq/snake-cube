@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Port\Path;
+namespace App\Adapter\Path;
 
-use App\Port\Path\PathInterface;
-use App\Port\Builder\Vector;
+use App\Adapter\Path\PathInterface;
+use App\Adapter\Builder\Vector;
 use App\Exception\PathException\IdenticalPathException;
 
 class IdenticalPath implements PathInterface

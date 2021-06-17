@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Port\Builder;
+namespace App\Adapter\Builder;
 
 
 class Vector

@@ -3,7 +3,7 @@
 header('Access-Control-Allow-Origin: *');
 use Symfony\Component\HttpFoundation\Request;
 use App\Controller\CreateCubeController;
-use App\Port\Builder\OwnCubeBuilder;
+use App\Adapter\Builder\OwnCubeBuilder;
 use Domain\Shape\UseCase\CreateCube;
 require_once __DIR__ . '/vendor/autoload.php';
 
